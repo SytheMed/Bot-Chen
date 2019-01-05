@@ -27,11 +27,11 @@ fs.readdir("./commands/", (err, files) => {
 bot.on("ready", async() => {
     console.log(`${bot.user.username} is online!`);
     //if you want the bot change back its name everytime
-    bot.user.setUsername("BOT Chen");
+    bot.user.setUsername("Jester");
 
     //was making joke on a friend
     //bot.user.setActivity("Chan Ho is Gay",{type: "STREAMING"});
-    bot.user.setActivity("HONK HONK! || .help",{type: "STREAMING"});
+    bot.user.setActivity("Jester || .help",{type: "STREAMING"});
 });
 
 
@@ -84,7 +84,7 @@ bot.on("message", async message => {
         .setColor("#15f153")
         .setThumbnail(botIcon)
         .addField("Bot Name", bot.user.username)
-        .addField("Owner", "Sonia, Winds")
+        .addField("Owner", "Sythe")
         .addField("Created On", bot.user.createdAt);
 
         return message.channel.send(botInfo);
