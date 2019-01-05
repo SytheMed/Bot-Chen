@@ -15,27 +15,8 @@ if(!prefix){
                        "Type " + prefix + "prefix [new prefix] for customized prefix!\n" +
                        "Type " + prefix + "tempmute [1s/1m/1h] to mute a user!\n" +
                        "Type " + prefix + "clear [amount] to clear messages!\n" 
+                       "Type " + prefix + "best command!\n"
                        + "```");
-
-
-    message.channel.send("```" + "\n" +
-                        "Type " + prefix + "cat for a random cute cat!\n" +
-                        "Type " + prefix + "doggo for a random cute dog!\n" +
-                        "Type " + prefix + "vote to create a vote!\n" +
-                        "Type " + prefix + "luckycolor to get a hexcolor code!\n" +
-                        "Type " + prefix + "say to let the bot say for you!\n" +
-                        "Type " + prefix + "embed to let the bot embed for you!\n" +
-                        "Type " + prefix + "flip to flip a coin!\n" +
-                        "Type " + prefix + "asciiart to get a random asciiart!\n" +
-                        "Type " + prefix + "vaporwave [text] to vapor text!\n" +
-                        "Type " + prefix + "encode [text] to encode text!\n" +
-                        "Type " + prefix + "decode [text] to decode text!\n" +
-                        "Type " + prefix + "sample to get a sample text!\n" +
-                        "Type " + prefix + "code[text] to send styled codes!\n" +
-                        "Type " + prefix + "uselessfact to get a useless fact!\n" +
-                        "Type " + prefix + "uselessweb to get a useless website!\n" +
-                        "Type " + prefix + "google [stuff] to google stuffs!\n"
-                        + "```");
 
 }
 
